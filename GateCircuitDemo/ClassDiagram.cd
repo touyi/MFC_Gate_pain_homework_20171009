@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="元器件基类&#xD;&#xA;包含所有元器件的通用方法&#xD;&#xA;Draw为纯虚函数，统一接口方便统一绘制所有的元器件">
+    <Position X="0.5" Y="0.717" Height="1.371" Width="1.119" />
+  </Comment>
+  <Comment CommentText="与门">
+    <Position X="6.112" Y="1.207" Height="0.315" Width="0.7" />
+  </Comment>
+  <Comment CommentText="非门">
+    <Position X="6.118" Y="3.078" Height="0.315" Width="0.7" />
+  </Comment>
+  <Comment CommentText="引脚类，与元器件类组合使用">
+    <Position X="8.649" Y="1.085" Height="0.496" Width="1.184" />
+  </Comment>
+  <Class Name="CAboutDlg" Collapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GateCircuitDemo.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGate">
+    <Position X="1.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAQIACIECAAAgAAAAAAAAAAAAApEAEAAAQAAAQAAAI=</HashCode>
+      <FileName>Gate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGateCircuitDemoApp" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAABQAAAAAQCAAARAAACCAA=</HashCode>
+      <FileName>GateCircuitDemo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGateCircuitDemoDoc" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAEAAAAAAAACAAAgAAgASggAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GateCircuitDemoDoc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGateCircuitDemoView" Collapsed="true">
+    <Position X="11.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAQIAAABABAAACgjgBQgAFEgBAAAAAAAAwJKCAYAQU=</HashCode>
+      <FileName>GateCircuitDemoView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMainFrame" Collapsed="true">
+    <Position X="12.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAACAAAiAAAoCEAAgAgAABQAAAAAhA=</HashCode>
+      <FileName>MainFrm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CNotGate">
+    <Position X="4.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAggAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NotGate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPin">
+    <Position X="7" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAEAAAqAAAgAAAAACAAAAAAABIAEAQAAAAAQAAAI=</HashCode>
+      <FileName>Pin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CANDGate">
+    <Position X="4.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAEAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>ANDGate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
